@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<body>
+<header>
+
+<style>
+body {
+  background-image: url('pic3.png');
+}
+</style>
+
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  margin: 0;
+  font-family: Gotham black, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #526272;
+}
+
+.topnav a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: #526272;
+}
+
+.topnav a.active {
+  background-color: #526272;
+  color: white;
+}
+</style>
+</head>
+<body>
+
+<div class="topnav">
+  <a class="active">
+  <a href="index.html">Home page</a>
+  <a href="aboutme.html">About me</a>
+  <a href="academic.html">Academic Qualification</a>
+  <a href="hobby.html">Hobby</a>
+  <a href="others.html">Others</a>
+  <a href="contact.html">Contact</a>
+</div>
+
+<div style="padding-left:16px">
+</div>
+
+<br>
+<br>
+
+<h1 align="center">    
+        <font color="black" font face="arial" size="15" table align="right-side">Bit's About Me<br/>  
+	</font>	
+
+    <br />
+	
+ <align="center">    
+     <font face="arial" font color="black" size="3" align="center">Hello there! Welcome to my page.Please watch the video to get know more about me.<br/>
+
+    </font>
+
+<br/>
+	
+<div style="text-align:center"> 
+  
+  <video id="video1" width="450">
+    <source src="mp4.mp4"" type="video/mp4">
+    Your browser does not support HTML video.
+  </video>
+  <br/>
+  <button onclick="playPause()">Play/Pause</button> 
+  
+</div> 
+
+<script> 
+var myVideo = document.getElementById("video1"); 
+
+function playPause() { 
+  if (myVideo.paused) 
+    myVideo.play(); 
+  else 
+    myVideo.pause(); 
+} 
+</script> 
+
+</h1>
+
+</body>
+</html>

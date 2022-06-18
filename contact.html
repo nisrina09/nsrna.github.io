@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<style>
+body {
+  background-image: url('pic3.png');
+}
+</style>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  margin: 0;
+  font-family: Gotham black, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #526272;
+}
+
+.topnav a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: #526272;
+}
+
+.topnav a.active {
+  background-color: #526272;
+  color: white;
+}
+</style>
+</head>
+</html>
+
+<body>
+
+<div class="topnav">
+  <a class="active">
+  <a href="index.html">Home page</a>
+  <a href="aboutme.html">About me</a>
+  <a href="academic.html">Academic Qualification</a>
+  <a href="hobby.html">Hobby</a>
+  <a href="others.html">Others</a>
+  <a href="contact.html">Contact</a>
+</div>
+
+<div style="padding-left:16px">
+</div>
+
+    <br /><br /><br /><br /> 
+	
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Template</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<h1 align="center">    
+        <font color="black" font face="arial" size="15" table align="right-side">Get in Touch<br/>  
+</font>
+
+<br/>
+
+<style>
+.wrapper .icon{
+  position: relative;
+  background-color: #ffffff;
+  border-radius: 35%;
+  margin: 15px;
+  width: 70px;
+  height: 70px;
+  line-height: 70px;
+  font-size: 45px;
+  display: inline-block;
+  align-items: center;
+  box-shadow: 0 30px 30px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  color: #333;
+  text-decoration: none;
+}
+.wrapper .tooltip {
+  position: absolute;
+  top: 0;
+  line-height: 1.5;
+  font-size: 14px;
+  background-color:black
+  color: white
+  padding: 5px48px;
+  border-radius: 5px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+.wrapper .tooltip::before {
+  position: absolute;
+  content: "";
+  height: 8px;
+  width: 8px;
+  background-color: black
+  bottom: -3px;
+  left: 50%;
+  transform: translate(-90%) rotate(85deg);
+  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+.wrapper .icon:hover .tooltip {
+  top: -45px;
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+.wrapper .icon:hover span,
+.wrapper .icon:hover .tooltip {
+  text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.1);
+}
+.wrapper .whatsapp:hover,
+.wrapper .whatsapp:hover .tooltip,
+.wrapper .whatsapp:hover .tooltip::before {
+  background-color: white
+  color: black
+}
+.wrapper .telegram:hover,
+.wrapper .telegram:hover .tooltip,
+.wrapper .telegram:hover .tooltip::before {
+  background-color: white
+  color: black
+}
+.wrapper .instagram:hover,
+.wrapper .instagram:hover .tooltip,
+.wrapper .instagram:hover .tooltip::before {
+  background-color: white
+  color: black
+}
+.wrapper .github:hover,
+.wrapper .github:hover .tooltip,
+.wrapper .github:hover .tooltip::before {
+  background-color: white
+  color: black
+}
+.wrapper .youtube:hover,
+.wrapper .youtube:hover .tooltip,
+.wrapper .youtube:hover .tooltip::before {
+  background-color: white
+  color: black
+}
+</style>
+
+<!-- Font Awesome 5.15.1 CSS -->
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css'>
+
+<div class="wrapper">
+  <a href="http://www.wasap.my/60136371424" class="icon whatsapp">
+    <div class="tooltip">whatsapp</div>
+    <span><i class="fab fa-whatsapp"></i></span>
+  
+  <a href="https://t.me/banisrina_03"class="icon telegram">
+    <div class="tooltip">Telegram</div>
+    <span><i class="fab fa-telegram"></i></span>
+
+  <a href="http://instagram.com/_nsrnaaa3" class="icon instagram">
+    <div class="tooltip">Instagram</div>
+    <span><i class="fab fa-instagram"></i></span>
+ 
+  <a href="https://youtube.com/channel/UClTK1yoQJl1pWFHyJG3LcmQ" class="icon youtube">
+    <div class="tooltip">Youtube</div>
+    <span><i class="fab fa-youtube"></i></span>
+  </a>
+</div>
+
+
+</body>
